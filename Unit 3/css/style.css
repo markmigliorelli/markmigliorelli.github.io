@@ -1,0 +1,17 @@
+body {
+	background-image: url("images/stripes.png");
+	background-repeat: repeat-x;
+	}
+
+hr {
+	width: 25px;
+	color: #ff706e;
+	text-align: left;
+	}
+
+h1 { 
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: lighter;
+	color: black;
+	}
