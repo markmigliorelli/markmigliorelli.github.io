@@ -1,18 +1,28 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-image: url("../images/stripes.png"), url("../images/background.jpg");
 	background-repeat: repeat-x, no-repeat;
-	background-position: left top, 0% 3%;
-	}
-
+	background-size: auto, cover;
+}
 hr {
 	width: 25px;
-	color: #ff706e;
-	position: left;
-	}
-
-h1 { 
+	border-color: #ff706e;
+}
+h1 {
 	font-family: helvetica;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: lighter;
-	color: white;
-	}
+	color: #fff;
+}
+section {
+	margin-top: 350;
+	margin-left: 125;
+}
+
+.spacing {
+	margin-top: 20;
+}
+
+.appspacing {
+	margin-top: 15
+}
