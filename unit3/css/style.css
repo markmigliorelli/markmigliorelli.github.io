@@ -2,38 +2,27 @@
 body {
 	background-image: url("../images/stripes.png"), url("../images/background.jpg");
 	background-repeat: repeat-x, no-repeat;
-<<<<<<< HEAD
 	background-size: auto, cover;
-=======
 	background-size:auto, cover;
->>>>>>> FETCH_HEAD
 }
 hr {
 	width: 25px;
 	border-color: #ff706e;
 }
-<<<<<<< HEAD
-h1 {
-=======
 h1 { 
->>>>>>> FETCH_HEAD
 	font-family: helvetica;
 	font-size: 22px;
 	font-weight: lighter;
 	color: #fff;
 }
-<<<<<<< HEAD
 section {
 	margin-top: 350;
 	margin-left: 125;
 }
-
 .spacing {
 	margin-top: 20;
 }
-
 .appspacing {
 	margin-top: 15
 }
-=======
->>>>>>> FETCH_HEAD
+
