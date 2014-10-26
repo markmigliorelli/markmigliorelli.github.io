@@ -1,5 +1,5 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-li + li { border-left: ; }
+li + li { border-left: 1px #333 solid; }
 header { 
 	background: url("../images/landing_page_original_cropped.jpg") no-repeat; 
 	background-size: cover;
@@ -22,6 +22,7 @@ li {
 	font-weight: lighter;
 	font-style: italic;
 	font-size: 16px;
+	margin:50px;
 }
 .logo {
 	float:left;
