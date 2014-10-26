@@ -1,0 +1,23 @@
+body {
+  background-color: #1abc9c;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #333333;
+  text-align: center;
+}
+
+h1 {
+  background-color:red;
+}
+
+ul {
+  color: #1abc9c;
+}
+
+div {
+  background-color: white;
+}
