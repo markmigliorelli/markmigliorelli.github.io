@@ -1,4 +1,9 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+li + li { border-left: ; }
+header { 
+	background: url("../images/landing_page_original_cropped.jpg") no-repeat; 
+	background-size: cover;
+}
 nav {
 	background-color: #403F34;
 	width: 100%;
@@ -18,6 +23,7 @@ li {
 	top: -110px;
 }
 .logo {
+	float:left;
 	margin: 0 0 0 300;
 }
 div .MainContent {
