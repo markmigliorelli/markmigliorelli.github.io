@@ -28,18 +28,13 @@ li {
 	float:left;
 	margin: 0 0 0 300;
 }
-div .MainContent {
-	background-image: url("../images/landing_page_original_cropped.jpg");
-	width: 1024px;
-	height: 408px;
-}
-div .TransBox {
+.TransBox {
 	width: 450px;
 	height: 408px;
-	background-color: 30 30 30;
+	background-color: rgba(30,30,30,.6);
 	margin: 0 0 0 300px;
 }
-div .TransBox h1 {
+.TransBox h1 {
 	font-family:'Roboto Condensed',serif;
 	font-size: 40px;
 	font-weight: bold;
@@ -47,14 +42,14 @@ div .TransBox h1 {
 	color: #ffffff;
 	padding: 0 0 10 0;
 }
-div .TransBox hr {
+.TransBox hr {
 	border: none;
 	border-top: 2px dotted;
-	width: 535px;
+	width: 400px;
 	border-color: #ffffff;
-	padding: 0 0 15 0;
+	margin: 0 0 15 0;
 }
-div .TransBox p {
+.TransBox p {
 	font-family:'Merriweather', serif;
 	font-weight: lighter;
 	font-size: 18px;
