@@ -4,33 +4,48 @@ body {
 	background-size: cover;
 }
 .logo {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 0 0 575;
+}
+.NavSpace {
+	position: relative;
+	display: inline-block;
+	top: -115px;
+	padding: 90px;
+}
+section {
+	display: block;
+	margin: 300px auto;
+	width: 700px;
+	text-align: left;
+}
+li {
+	display: inline;
+	color: #ffffff;
+	font-family:'Merriweather';
+	font-size: 16px;
+	font-style: italic;
 }
 h1 {
 	font-family:'Roboto Condensed',serif;
-	font-size: 46px;
+	font-size: 50px;
 	font-weight: bold;
 	letter-spacing: 5px;
 	color: #ffffff;
-}
-p {
-	font-family:'Merriweather', serif;
-	font-weight: lighter;
-	font-size: 16px;
-	font-style: italic;
-	line-height: 24px;
-	letter-spacing: 1px;
-	color: #ffffff;
+	padding: 0 0 15 0;
 }
 hr {
 	border: none;
 	border-top: 2px dotted;
-	width: 325px;
+	width: 570px;
 	border-color: #ffffff;
-	margin: 30px auto 30px auto;
+	padding: 10;
 }
-section {
-	margin: 250px auto;
-	width: 800px;
+p {
+	font-family:'Merriweather', serif;
+	font-weight: lighter;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 30px;
+	letter-spacing: 1px;
+	color: #ffffff;
 }
