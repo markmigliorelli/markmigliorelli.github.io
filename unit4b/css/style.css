@@ -27,34 +27,33 @@ li {
 .logo {
 	float:left;
 	margin: 0 0 0 300;
+	width:105px;
 }
 .TransBox {
 	background-color: rgba(30,30,30,.6);
 	color:#fff;
-	margin: 0 0 0 300px;
+	margin: 0 0 0 200px;
 	padding:50px;
 	width: 280px;
 }
 .TransBox h1 {
 	font-family:'Roboto Condensed',serif;
-	font-size: 40px;
+	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 5px;
-	color: #ffffff;
+	color: #8a7436;
 	padding: 0 0 10 0;
 }
 .TransBox hr {
 	border: none;
 	border-top: 2px dotted;
-	border-color: #ffffff;
+	border-color: #8a7436;
 	margin: 0 0 15 0;
 }
 .TransBox p {
 	font-family:'Merriweather', serif;
 	font-weight: lighter;
-	font-size: 18px;
+	font-size: 17px;
 	font-style: italic;
-	line-height: 28px;
-	letter-spacing: 1px;
-	color: #ffffff;
+	line-height: 1.62em;
 }
