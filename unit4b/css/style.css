@@ -40,15 +40,14 @@ li {
 	font-family:'Roboto Condensed',serif;
 	font-size: 20px;
 	font-weight: bold;
-	letter-spacing: 5px;
 	color: #8a7436;
-	padding: 0 0 10 0;
+	padding:0;
 }
 .TransBox hr {
 	border: none;
 	border-top: 2px dotted;
 	border-color: #8a7436;
-	margin: 0 0 15 0;
+	margin: 15px 0 15px 0;
 }
 .TransBox p {
 	font-family:'Merriweather', serif;
