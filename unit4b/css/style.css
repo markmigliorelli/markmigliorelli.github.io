@@ -15,7 +15,6 @@ ul {
 li {
 }
 .NavSpace {
-
 	color: #ffffff;
 	display: inline;
 	font-family:'Merriweather';
@@ -32,8 +31,9 @@ li {
 .TransBox {
 	background-color: rgba(30,30,30,.6);
 	color:#fff;
-	margin: 0 0 0 200px;
-	padding:50px;
+	height:408px;
+	margin: 0 0 0 250px;
+	padding:35px;
 	width: 280px;
 }
 .TransBox h1 {
