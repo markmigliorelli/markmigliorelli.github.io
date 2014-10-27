@@ -29,10 +29,11 @@ li {
 	margin: 0 0 0 300;
 }
 .TransBox {
-	width: 450px;
-	height: 408px;
 	background-color: rgba(30,30,30,.6);
+	color:#fff;
 	margin: 0 0 0 300px;
+	padding:50px;
+	width: 280px;
 }
 .TransBox h1 {
 	font-family:'Roboto Condensed',serif;
@@ -45,7 +46,6 @@ li {
 .TransBox hr {
 	border: none;
 	border-top: 2px dotted;
-	width: 400px;
 	border-color: #ffffff;
 	margin: 0 0 15 0;
 }
@@ -57,5 +57,4 @@ li {
 	line-height: 28px;
 	letter-spacing: 1px;
 	color: #ffffff;
-	width: 700px
 }
