@@ -1,5 +1,5 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-li + li { border-left: 1px #333 solid; }
+li + li { border-left: 2px #000 solid; }
 header { 
 	background: url("../images/landing_page_original_cropped.jpg") no-repeat; 
 	background-size: cover;
@@ -17,11 +17,12 @@ li {
 .NavSpace {
 	color: #ffffff;
 	display: inline;
+	float:left;
 	font-family:'Merriweather';
 	font-weight: lighter;
-	font-style: italic;
 	font-size: 16px;
-	margin:50px;
+	padding:0 50px;
+	text-align:center;
 }
 .logo {
 	float:left;
@@ -32,7 +33,7 @@ li {
 	background-color: rgba(30,30,30,.6);
 	color:#fff;
 	margin: 0 0 0 220px;
-	padding:35px;
+	padding:50px 35px;
 	width: 280px;
 }
 .TransBox h1 {
@@ -54,4 +55,15 @@ li {
 	font-size: 17px;
 	font-style: italic;
 	line-height: 1.62em;
+}
+span.italics { 
+	font-style: italic; 
+	font-size:12px;
+}
+span.uppercase {
+	color:#9a8139;
+	font-family: 'Roboto Condensed',serif;
+	font-size:16px;
+	font-style:bold;
+	font-variant:small-caps;
 }
