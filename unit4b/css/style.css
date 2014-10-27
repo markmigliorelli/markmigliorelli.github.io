@@ -66,6 +66,8 @@ li {
 	padding:20px;
 	width:33.33%;
 }
+img.sampleImg { width:100%; }
+}
 span.italics { 
 	font-style: italic; 
 	font-size:12px;
