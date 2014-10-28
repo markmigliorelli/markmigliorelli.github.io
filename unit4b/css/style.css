@@ -1,7 +1,13 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+<<<<<<< Updated upstream
 li + li { border-left: 2px #000 solid; }
 header { 
 	background: url("../images/landing_page_original_cropped.jpg") no-repeat; 
+=======
+li + li { border-left: 1px #2D2D2D solid; }
+header {
+	background: url("../images/landing_page_original_cropped.jpg") no-repeat;
+>>>>>>> Stashed changes
 	background-size: cover;
 }
 nav {
@@ -15,8 +21,6 @@ section {
 }
 ul {
 	padding:35px;
-}
-li {
 }
 .NavSpace {
 	color: #ffffff;
@@ -36,6 +40,7 @@ li {
 .TransBox {
 	background-color: rgba(30,30,30,.6);
 	color:#fff;
+<<<<<<< Updated upstream
 	margin: 0 0 0 220px;
 	padding:50px 35px;
 	width: 280px;
@@ -45,12 +50,27 @@ li {
 	font-size: 20px;
 	font-weight: bold;
 	color: #8a7436;
+=======
+	margin: 0 0 0 200px;
+	padding:50px 35px;
+	width: 300px;
+}
+.TransBox h1 {
+	font-family:'Roboto Condensed',serif;
+	font-size: 30px;
+	font-style:bold;
+	color: #ffffff;
+>>>>>>> Stashed changes
 	padding:0;
 }
 .TransBox hr {
 	border: none;
 	border-top: 2px dotted;
+<<<<<<< Updated upstream
 	border-color: #8a7436;
+=======
+	border-color: #ffffff;
+>>>>>>> Stashed changes
 	margin: 15px 0 15px 0;
 }
 .TransBox p {
@@ -60,6 +80,7 @@ li {
 	font-style: italic;
 	line-height: 1.62em;
 }
+<<<<<<< Updated upstream
 .third {
 	float:left;
 	margin:0;
@@ -78,4 +99,31 @@ span.uppercase {
 	font-size:16px;
 	font-style:bold;
 	font-variant:small-caps;
+=======
+h2 {
+	font-family:'Roboto Condensed',serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #8a7436;
+	padding:20 0 5 0;
+}
+.third {
+	float:left;
+	margin:0;
+	padding:0 10 0 10;
+	width:33.33%;
+}
+img.sampleImg { 
+	width:100%; 
+}
+span.italics {
+	font-style: italic;
+	font-size:13px;
+>>>>>>> Stashed changes
+}
+span.uppercase {
+	color:#9a8139;
+	font-family: 'Roboto Condensed',serif;
+	font-size:16px;
+	font-style:bold;
 }
