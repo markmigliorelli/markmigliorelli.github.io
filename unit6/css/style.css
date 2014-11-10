@@ -64,7 +64,3 @@ p {
 	width: 100%;
 	margin: 20 0 0 0;
 }
-.clearfix:after {
-overflow: auto;
-display: block;
-}
