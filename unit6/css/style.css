@@ -1,9 +1,17 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-
+header {
+	background:url("images/MM_Landing.jpg") no-repeat;
+	background-size:cover;
+}
 nav {
+	background:rgba(255,255,255,.8);
 	font-family: 'roboto slab', serif;
 	font-size: 14px;
 	margin: 15 auto;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
 }
 a {
 	float: right;
@@ -41,6 +49,7 @@ h2 {
 }
 .Skillset {
 	margin: 80px auto;
+	width:1200px;
 }
 .triple	{
 	height: 150px;
