@@ -42,14 +42,15 @@ h2 {
 .Skillset {
 	margin: 80px auto;
 }
-#triple	{
+.triple	{
 	height: 150px;
 	display: inline-block;
-	-webkit-column-count: 4;
-       -moz-column-count: 4;
-            column-count: 4;
+	-webkit-column-count: auto;
+	-moz-column-count: auto;
+	column-count: auto;
+	column-width:33%;
 }
-#triple li {
+.triple li {
 	font-family: 'roboto', sans-serif;
 	font-weight: 300;
 	font-size:16px;
