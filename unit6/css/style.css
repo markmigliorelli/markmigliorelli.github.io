@@ -12,20 +12,20 @@ header {
 }
 nav {
 	background:rgba(255,255,255,.8);
-	font-family: 'roboto slab', serif;
-	font-size: 14px;
-	padding:15px 0;
 	width:100%;
 	position:fixed;
+	padding:15px 0;
 	top:0;
 	left:0;
 }
 a {
-	text-decoration:none;
+	text-decoration: none;
 	padding: 20 35 0 35;
 	color: #231F20;
 }
 nav a {
+	font-family: 'roboto slab', serif;
+	font-size: 14px;
 	float: right;
 	text-decoration: none;
 	padding: 20 35 0 35;
@@ -86,7 +86,7 @@ h2 {
 }
 .WorkTitle {
 	font-family: 'Roboto Slab', serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size:	20px;
 	color: white;
 	padding: 10 0 0 0;
@@ -94,7 +94,7 @@ h2 {
 .WorkDesc {
 	font-family: 'Roboto Slab', sans-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 16px;
 	color: #86754D;
 }
 .WorkImg {
