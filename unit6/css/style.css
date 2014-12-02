@@ -1,19 +1,26 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	font-size:16px;
+	line-height: 1.62em;
+}
 header {
 	background:url("images/MM_Landing.jpg") no-repeat;
 	background-size:cover;
+	height:100vh;
 }
 nav {
 	background:rgba(255,255,255,.8);
 	font-family: 'roboto slab', serif;
 	font-size: 14px;
-	margin: 15 auto;
+	margin: 15px auto;
 	width:100%;
 	position:fixed;
 	top:0;
 	left:0;
 }
-a {
+nav a {
 	float: right;
 	text-decoration: none;
 	padding: 20 35 0 35;
@@ -30,10 +37,6 @@ h1 {
 	text-align: center;
 }
 p {
-	font-family: 'roboto', sans-serif;
-	font-weight: 300;
-	font-size:16px;
-	line-height: 1.62em;
 	text-align: center;
 	margin: 20px auto;
 	width: 600px;
