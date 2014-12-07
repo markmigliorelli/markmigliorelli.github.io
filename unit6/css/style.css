@@ -5,18 +5,19 @@ body {
 	font-size:16px;
 	line-height: 1.62em;
 }
-header {
-	background:url("../images/MM_Landing.jpg") no-repeat;
+header.hero {
+	background:url("../images/MM_Landing_A.jpg") no-repeat;
 	background-size:cover;
 	height:100vh;
 }
 nav {
-	background:rgba(255,255,255,.8);
+	background:rgba(255,255,255,1);
 	width:100%;
 	position:fixed;
 	padding:15px 0;
 	top:0;
 	left:0;
+	box-shadow: 0px 2px 5px #404041;
 }
 a {
 	text-decoration: none;
@@ -30,6 +31,9 @@ nav a {
 	text-decoration: none;
 	padding: 20 35 0 35;
 	color: #231F20;
+}
+.NavLink {
+	margin-right: 80px;
 }
 .logo {
 	margin-left: 100px;
@@ -50,14 +54,14 @@ h2 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	font-size: 20px;
-	padding-left: 100;
 }
 .AboutMe {
-	margin: 50px auto; 
+	margin: 100px auto; 
 }
 .Skillset {
-	margin: 80px auto;
+	margin: 100px auto;
 	width:1200px;
+	padding: 0 0 0 80;
 }
 .triple	{
 	height: 150px;
@@ -117,6 +121,10 @@ h2 {
 	line-height: 1.7;
 	color: #86754D;
 }
+.ProjectImg {
+	max-width: 100%;
+	max-height: 100%
+}
 .ProjectImgSpace{
 	margin: 9 0 0 0;
 }
@@ -125,7 +133,15 @@ h2 {
 	font-weight: 400;
 }
 .Contact h1 {
-	margin: 50px auto;
+	margin: 100px 0 0 0;
+}
+footer p {
+	margin-top: 100;
+	font-size: 14px;
+	color: white;
+	background-color: #333;
+	width: 100%;
+	padding: 10 0;
 }
 .clearfix:after { 
    content: "."; 
