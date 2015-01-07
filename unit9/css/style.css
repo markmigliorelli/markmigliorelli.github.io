@@ -151,3 +151,12 @@ footer p {
    height: 0; 
    clear: both;
 }
+@media (max-width: 800px) {
+	.logo {
+		margin-left: 30px;
+	}
+	header.hero{
+		background-size: 100%;
+		margin-top: 135px;
+	}
+}
