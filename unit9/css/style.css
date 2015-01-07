@@ -1,0 +1,153 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	font-size:16px;
+	line-height: 1.62em;
+}
+header.hero {
+	background:url("../images/MM_Landing_A.jpg") no-repeat;
+	background-size:cover;
+	height:100vh;
+}
+nav {
+	background:rgba(255,255,255,1);
+	width:100%;
+	position:fixed;
+	padding:15px 0;
+	top:0;
+	left:0;
+	box-shadow: 0px 2px 5px #404041;
+}
+a {
+	text-decoration: none;
+	padding: 20 35 0 35;
+	color: #231F20;
+}
+nav a {
+	font-family: 'roboto slab', serif;
+	font-size: 14px;
+	float: right;
+	text-decoration: none;
+	padding: 20 35 0 35;
+	color: #231F20;
+}
+.NavLink {
+	margin-right: 80px;
+}
+.logo {
+	margin-left: 100px;
+}
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 15px;
+	text-align: center;
+}
+p {
+	text-align: center;
+	margin: 20px auto;
+	width: 600px;
+}
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+.AboutMe {
+	margin: 100px auto; 
+}
+.Skillset {
+	margin: 100px auto;
+	width:1200px;
+	padding: 0 0 0 80;
+}
+.triple	{
+	height: 180px;
+	display: inline-block;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}
+.triple li {
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	font-size:16px;
+	line-height: 1.62em;
+	float: left;
+	width:100%;
+	list-style-type: none;
+}
+#WorkSpacing {
+	margin: 0 0 30 0;
+}
+.WorkThird a {
+	background-color: #333;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	padding: 10 0 0 0;
+}
+.WorkTitle {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size:	20px;
+	color: white;
+	padding: 10 0 0 0;
+}
+.WorkDesc {
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #86754D;
+}
+.WorkImg {
+	padding: none;
+	width: 100%;
+	margin: 20 0 0 0;
+}
+#MoreWork a{
+	background-color: 333333;
+	height: 70px;
+	width: 100%;
+	text-align: center;
+}
+#ProjectIntro{
+	margin: 50 auto;
+}
+.ProjectDesc{
+	font-size: 23px;
+	font-weight: 100;
+	line-height: 1.7;
+	color: #86754D;
+}
+.ProjectImg {
+	max-width: 100%;
+	max-height: 100%
+}
+.ProjectImgSpace{
+	margin: 9 0 0 0;
+}
+.PAccents {
+	font-family: 'roboto slab', san-serif;
+	font-weight: 400;
+}
+.Contact h1 {
+	margin: 100px 0 0 0;
+}
+footer p {
+	margin-top: 100;
+	font-size: 14px;
+	color: white;
+	background-color: #333;
+	width: 100%;
+	padding: 10 0;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
