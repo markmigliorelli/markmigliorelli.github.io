@@ -155,9 +155,16 @@ footer p {
 	.logo {
 		margin-left: 30px;
 	}
+	nav a {
+		font-size:12px;
+		padding: 20 30 0 30;
+	}
+	.NavLink {
+		margin-right: 5;
+	}
 	header.hero{
 		background-size: 100%;
-		margin-top: 135px;
+		margin-top: 90px;
 	}
 	.WorkTitle {
 		font-size: 16px;
@@ -165,4 +172,7 @@ footer p {
 	.WorkDesc {
 		font-size: 14px;
 	}
+}
+@media only screen and (max-width: 400) {
+	
 }
