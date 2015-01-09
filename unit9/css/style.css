@@ -6,30 +6,31 @@ body {
 	line-height: 1.62em;
 }
 header.hero {
-	background:url("../images/MM_Landing_A.jpg") no-repeat;
+	background:url("../images/MM_Landing_A.jpg") no-repeat center;
 	background-size:cover;
 	height:100vh;
+	width: 100%;
+	margin-top: 50px;
 }
 nav {
 	background:rgba(255,255,255,1);
 	width:100%;
 	position:fixed;
-	padding:15px 0;
+	padding:1em 0;
 	top:0;
 	left:0;
 	box-shadow: 0px 2px 5px #404041;
 }
 a {
 	text-decoration: none;
-	padding: 20 35 0 35;
 	color: #231F20;
 }
 nav a {
 	font-family: 'roboto slab', serif;
-	font-size: 14px;
+	font-size: .9em;
 	float: right;
 	text-decoration: none;
-	padding: 20 35 0 35;
+	padding: 1.25em 2.2em 0 2.2em;
 	color: #231F20;
 }
 nav a:first-child {
@@ -37,16 +38,17 @@ nav a:first-child {
 	padding: 0;
 }
 .NavLink {
-	margin-right: 80px;
+	margin-right: 40px;
 }
 .logo {
-	margin-left: 100px;
+	margin-left: 50px;
+	max-width: 80%;
 }
 h1 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
-	font-size: 30px;
-	line-height: 15px;
+	font-size: 2em;
+	line-height: .6em;
 	text-align: center;
 }
 p {
@@ -57,16 +59,16 @@ p {
 h2 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 1.25em;
 }
 .AboutMe {
-	padding: 150px 0; 
+	padding-top: 150px; 
 }
 .Work {
-	padding: 150px 0; 
+	padding-top: 150px; 
 }
 .Skillset {
-	margin: 100px auto;
+	margin:100px auto;
 	width:1200px;
 	padding: 0 0 0 80;
 }
@@ -87,40 +89,40 @@ h2 {
 	list-style-type: none;
 }
 #WorkSpacing {
-	margin: 0 0 30 0;
+	margin-bottom: 35px;
 }
 .WorkThird a {
 	background-color: #333;
 	width: 33.33%;
 	float: left;
 	text-align: center;
-	padding: 10 0 0 0;
+	padding: 18px 0 0 0;
 }
 .WorkTitle {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
-	font-size:	20px;
+	font-size: 1.25em;
+	letter-spacing: .05em;
 	color: white;
-	padding: 10 0 0 0;
 }
 .WorkDesc {
 	font-family: 'Roboto Slab', sans-serif;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 1em;
 	color: #86754D;
 }
 .WorkImg {
 	padding: none;
 	width: 100%;
-	margin: 20 0 0 0;
+	margin: 20px 0 0 0;
 }
 #ProjectIntro{
-	margin: 50 auto;
+	margin: 50px auto;
 }
 .ProjectDesc{
-	font-size: 23px;
+	font-size: 1.5em;
 	font-weight: 100;
-	line-height: 1.7;
+	line-height: 1.7em;
 	color: #86754D;
 }
 .ProjectImg {
@@ -130,24 +132,24 @@ h2 {
 	width: 100%;
 }
 .ProjectImgSpace{
-	margin: 9 0 0 0;
+	margin: 9px 0 0 0;
 }
 .PAccents {
 	font-family: 'roboto slab', san-serif;
 	font-weight: 400;
 }
 .Contact h1 {
-	margin: 100 0 20 0;
+	margin: 100px 0 20px 0;
 }
 .Contact p {
-	margin-bottom: 100;
+	margin-bottom: 100px;
 }
 .MoreWork {
-	margin: 40 0 60 0;
+	margin: 40px 0 60px 0;
 }
 footer p {
 	text-align: center;
-	font-size: 14px;
+	font-size: .75em;
 	color: white;
 	background-color: #333;
 	width: 100%;
@@ -161,9 +163,35 @@ footer p {
    clear: both;
 }
 
+/* Responsive: */
+@media only screen and (min-width: 611px) and (max-width: 1000px) {
+header.hero	{
+	background:url("../images/MM_Landing_B.jpg") no-repeat center;	
+	height: 75vh;
+	background-size:cover;}
+.Work a {
+	width: 50%;
+}
+.logo {
+	margin-left: 50px;
+	max-width: 70%;
+}
+nav a {
+	font-size: .75em;
+	padding-top: 1.25em;
+}
+.NavLink {
+	margin-right: 30px;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 610px) {
+	.WorkTitle {
+}
+
 /* Responsive: PORTRAIT smartphones */
 @media only screen and (min-width: 320px) and (max-width: 479px){
-	body {
+body {
 	font-size: 12px;
 }
 .logo {
@@ -171,7 +199,7 @@ footer p {
 	max-width: 55%;
 }
 nav {
-	padding: 15 0 15 0;
+	padding: 15px 0 15px 0;
 }
 nav a {
 	font-family: 'roboto slab', serif;
@@ -225,11 +253,11 @@ p {
 }
 .Contact p {
 	margin-bottom: 50;
-}
+	}
 }
 
 /* Responsive: LANDSCAPE smartphones + PORTRAIT small tablets */
-@media only screen and (min-width: 480px) and (max-width: 639px) {
+/*@media only screen and (min-width: 480px) and (max-width: 639px) {
 body {
 	font-size: 14px;
 }
@@ -287,11 +315,10 @@ p {
 }
 .Contact p {
 	margin-bottom: 50;
-}
-}
-
+	}
+}*/
 /* Responsive: PORTRAIT small tablets */
-@media only screen and (min-width: 640px) and (max-width: 767px) {
+/*@media only screen and (min-width: 640px) and (max-width: 767px) {
 body {
 	font-size: 14px;
 }
@@ -349,11 +376,11 @@ p {
 }
 .Contact p {
 	margin-bottom: 50;
-}
+	}
 }
 
 /* Responsive: PORTRAIT tablets */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*@media only screen and (min-width: 768px) and (max-width: 959px) {
 	body {
 	font-size: 14px;
 }
@@ -411,7 +438,7 @@ p {
 }
 .Contact p {
 	margin-bottom: 50;
-}
+	}
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1023px) {
@@ -419,31 +446,31 @@ p {
 	background-size: 100%;
 	margin-top: 90px;
 	height: 75vh;
-}
-}
+	}
+}*/
 
 /* Responsive: LANDSCAPE tablets */
-@media only screen and (min-width: 1024px) and (max-width: 1125px) {
+/*@media only screen and (min-width: 1024px) and (max-width: 1125px) {
 	header.hero{
 	background-size: 100%;
 	margin-top: 90px;
 	height: 80vh;
-}
-}
+	}
+}*/
 
 /* Responsive: LAPTOPS */
-@media only screen and (min-width: 1126px) and (max-width: 1555px) {
+/*@media only screen and (min-width: 1126px) and (max-width: 1555px) {
 	header.hero{
 	background-size: 100%;
 	margin-top: 90px;
 	height: 80vh;
-}
-}
+	}
+}*/
 
-@media only screen and (min-width: 1556px) and (max-width: 1891px) {
+/*@media only screen and (min-width: 1556px) and (max-width: 1891px) {
 	header.hero{
 	background-size: 100%;
 	margin-top: 90px;
 	height: 125vh;
-}
-}
+	}
+}*/
