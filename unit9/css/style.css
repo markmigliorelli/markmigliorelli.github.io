@@ -102,7 +102,7 @@ h2 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	font-size: 1.25em;
-	letter-spacing: .05em;
+	letter-spacing: .04em;
 	color: white;
 }
 .WorkDesc {
@@ -164,11 +164,12 @@ footer p {
 }
 
 /* Responsive: */
-@media only screen and (min-width: 611px) and (max-width: 1000px) {
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
 header.hero	{
 	background:url("../images/MM_Landing_B.jpg") no-repeat center;	
-	height: 75vh;
-	background-size:cover;}
+	height: 90vh;
+	background-size:cover;
+}
 .Work a {
 	width: 50%;
 }
@@ -183,16 +184,77 @@ nav a {
 .NavLink {
 	margin-right: 30px;
 }
+}
 
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+header.hero	{
+	background:url("../images/MM_Landing_Vertical.jpg") no-repeat center;	
+	height: 100vh;
+	background-size: cover;
+	margin-top: 60px;
+}
+.Work a {
+	width: 50%;
+}
+.logo {
+	margin-left: 50px;
+	max-width: 70%;
+}
+nav a {
+	font-size: .75em;
+	padding-top: 1.25em;
+}
+.NavLink {
+	margin-right: 30px;
+}
+}
 
-@media only screen and (min-width: 480px) and (max-width: 610px) {
-	.WorkTitle {
+@media only screen and (min-width: 500px) and (max-width: 699px) {
+header.hero	{
+	background:url("../images/MM_Landing_Vertical_B.jpg") no-repeat center;	
+	height: 100vh;
+	background-size: cover;
+	margin-top: 60px;
+}
+.logo {
+	margin-left: 50px;
+	max-width: 70%;
+}
+nav a {
+	font-size: .75em;
+	padding-top: 1.25em;
+}
+.NavLink {
+	margin-right: 30px;
+}
+.Work a {
+	width: 50%;
+}
+.WorkImg {
+	margin-top: 8px;
+}
+.WorkThird a{
+	padding-top: 10px;
+}
+.WorkTitle {
+	font-size: 1em;
+	letter-spacing: 0em;
+}
+.WorkDesc {
+	font-size: .75em;
+}
+p {
+	width: 70%;
+}
 }
 
 /* Responsive: PORTRAIT smartphones */
-@media only screen and (min-width: 320px) and (max-width: 479px){
-body {
-	font-size: 12px;
+@media only screen and (min-width: 320px) and (max-width: 499px){
+header.hero	{
+	background:url("../images/MM_Landing_Vertical_B.jpg") no-repeat center;	
+	height: 60vh;
+	background-size: cover;
+	margin-top: 65px;
 }
 .logo {
 	margin-left: 20px;
@@ -202,58 +264,28 @@ nav {
 	padding: 15px 0 15px 0;
 }
 nav a {
-	font-family: 'roboto slab', serif;
 	font-size: 2px;
 	float: right;
-	text-decoration: none;
 	padding: 0;
-	color: #231F20;
 }
 .NavLink {
 	margin-right: 0px;
 }
-header.hero{
-	background-size: 100%;
-	margin-top: 65px;
-	height: 45vh;
-}
-h1 {
-	font-size: 20px;
-	line-height: 10px;
-}
-p {
-	margin: 20px auto;
-	width: 80%;
-}
-.AboutMe {
-	padding: 0px 0; 
-}
-.Work {
-	padding: 0 0; 
-}
-#WorkSpacing {
-	margin-top:	50;
-}
 .WorkThird a {
 	text-align: center;
-	float: none;
+	clear: both;
+	width:100%;
 }
 .WorkTitle {
-	font-size: 17px;
-	padding: 10 0 10 0;
+	font-size: 1.25em;
+	letter-spacing: 0em;
 }
 .WorkDesc {
-	font-size: 14px;
+	font-size: 1em;
 }
-.WorkImg {
-	margin: 0 0 0 0;
+p {
+	width: 70%;
 }
-.Contact h1 {
-	margin: 50 0 20 0;
-}
-.Contact p {
-	margin-bottom: 50;
-	}
 }
 
 /* Responsive: LANDSCAPE smartphones + PORTRAIT small tablets */
