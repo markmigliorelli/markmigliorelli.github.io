@@ -187,7 +187,7 @@ nav a {
 header.hero{
 	background-size: 100%;
 	margin-top: 65px;
-	height: 50vh;
+	height: 45vh;
 }
 h1 {
 	font-size: 20px;
@@ -198,14 +198,20 @@ p {
 	width: 80%;
 }
 .AboutMe {
-	padding: 20px 0; 
+	padding: 0px 0; 
+}
+.Work {
+	padding: 0 0; 
+}
+#WorkSpacing {
+	margin-top:	50;
 }
 .WorkThird a {
 	text-align: center;
 	float: none;
 }
 .WorkTitle {
-	font-size: 18px;
+	font-size: 17px;
 	padding: 10 0 10 0;
 }
 .WorkDesc {
