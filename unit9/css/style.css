@@ -60,7 +60,10 @@ h2 {
 	font-size: 20px;
 }
 .AboutMe {
-	padding: 100px 0; 
+	padding: 150px 0; 
+}
+.Work {
+	padding: 150px 0; 
 }
 .Skillset {
 	margin: 100px auto;
@@ -315,7 +318,7 @@ h1 {
 }
 p {
 	margin: 20px auto;
-	width: 80%;
+	width: 70%;
 }
 #WorkSpacing {
 	margin: 30 0 30 0;
@@ -329,7 +332,7 @@ p {
 	width: 33.33%;
 }
 .WorkTitle {
-	font-size: 15px;
+	font-size: 14px;
 	padding: 10 0 10 0;
 }
 .WorkDesc {
@@ -369,7 +372,7 @@ nav a {
 header.hero{
 	background-size: 100%;
 	margin-top: 70px;
-	height: 67vh;
+	height: 55vh;
 }
 h1 {
 	font-size: 24px;
@@ -377,7 +380,7 @@ h1 {
 }
 p {
 	margin: 20px auto;
-	width: 80%;
+	width: 60%;
 }
 #WorkSpacing {
 	margin: 30 0 30 0;
@@ -409,12 +412,12 @@ p {
 	header.hero{
 	background-size: 100%;
 	margin-top: 90px;
-	height: 67vh;
+	height: 75vh;
 }
 }
 
 /* Responsive: LANDSCAPE tablets */
-@media only screen and (min-width: 1024px) and (max-width: 1223px) {
+@media only screen and (min-width: 1024px) and (max-width: 1125px) {
 	header.hero{
 	background-size: 100%;
 	margin-top: 90px;
@@ -423,11 +426,11 @@ p {
 }
 
 /* Responsive: LAPTOPS */
-@media only screen and (min-width: 1224px) and (max-width: 1555px) {
+@media only screen and (min-width: 1126px) and (max-width: 1555px) {
 	header.hero{
 	background-size: 100%;
 	margin-top: 90px;
-	height: 100vh;
+	height: 80vh;
 }
 }
 
