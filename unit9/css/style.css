@@ -168,7 +168,7 @@ footer p {
 header.hero	{
 	background:url("../images/MM_Landing_B.jpg") no-repeat center;	
 	height: 90vh;
-	background-size:cover;
+	background-size:100%;
 }
 .Work a {
 	width: 50%;
@@ -190,7 +190,7 @@ nav a {
 header.hero	{
 	background:url("../images/MM_Landing_Vertical.jpg") no-repeat center;	
 	height: 100vh;
-	background-size: cover;
+	background-size: 100%;
 	margin-top: 60px;
 }
 .Work a {
