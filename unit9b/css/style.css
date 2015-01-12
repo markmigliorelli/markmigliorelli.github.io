@@ -1,0 +1,168 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	font-size:16px;
+	line-height: 1.62em;
+}
+#ResponsiveNav {
+	display: none;
+}
+header.hero {
+	background:url("../images/MM_Landing_A.jpg") no-repeat center;
+	background-size:cover;
+	height:100vh;
+	width: 100%;
+	margin-top: 50px;
+}
+nav {
+	background:rgba(255,255,255,1);
+	width:100%;
+	position:fixed;
+	padding:1em 0;
+	top:0;
+	left:0;
+	box-shadow: 0px 2px 5px #404041;
+}
+a {
+	text-decoration: none;
+	color: #231F20;
+}
+nav a {
+	font-family: 'roboto slab', serif;
+	font-size: .9em;
+	float: right;
+	text-decoration: none;
+	padding: 1.25em 2.2em 0 2.2em;
+	color: #231F20;
+}
+nav a:first-child {
+	float: left;
+	padding: 0;
+}
+.NavLink {
+	margin-right: 40px;
+}
+.logo {
+	margin-left: 50px;
+	max-width: 80%;
+}
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 2em;
+	line-height: .6em;
+	text-align: center;
+}
+p {
+	text-align: center;
+	margin: 20px auto;
+	width: 600px;
+}
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 1.25em;
+}
+.AboutMe {
+	padding-top: 150px; 
+}
+.Work {
+	padding-top: 150px; 
+}
+.Skillset {
+	margin:100px auto;
+	width:1200px;
+	padding: 0 0 0 80;
+}
+.triple	{
+	height: 180px;
+	display: inline-block;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}
+.triple li {
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	font-size:16px;
+	line-height: 1.62em;
+	float: left;
+	width:100%;
+	list-style-type: none;
+}
+#WorkSpacing {
+	margin-bottom: 35px;
+}
+.WorkThird a {
+	background-color: #333;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	padding: 18px 0 0 0;
+}
+.WorkTitle {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	letter-spacing: .04em;
+	color: white;
+}
+.WorkDesc {
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: #86754D;
+}
+.WorkImg {
+	padding: none;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+#ProjectIntro{
+	margin: 50px auto;
+}
+.ProjectDesc{
+	font-size: 1.5em;
+	font-weight: 100;
+	line-height: 1.7em;
+	color: #86754D;
+}
+.ProjectImg {
+	width: 100%;
+}
+.ProjectImg img {
+	width: 100%;
+}
+.ProjectImgSpace{
+	margin: 9px 0 0 0;
+}
+.PAccents {
+	font-family: 'roboto slab', san-serif;
+	font-weight: 400;
+}
+.Contact h1 {
+	margin: 100px 0 20px 0;
+}
+.Contact p {
+	margin-bottom: 100px;
+}
+.MoreWork {
+	margin: 40px 0 60px 0;
+}
+footer p {
+	text-align: center;
+	font-size: .75em;
+	color: white;
+	background-color: #333;
+	width: 100%;
+	padding: 10 0;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
