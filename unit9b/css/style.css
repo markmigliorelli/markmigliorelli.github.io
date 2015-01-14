@@ -6,7 +6,7 @@ body {
 	line-height: 1.62em;
 }
 #ResponsiveNav {
-	display: none;
+	visibility: hidden;
 }
 header.hero {
 	background:url("../images/MM_Landing_A.jpg") no-repeat center;
