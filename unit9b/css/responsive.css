@@ -32,12 +32,9 @@ header.hero	{
 #ResponsiveNav {
 	visibility: visible;
 }
-#ResponsiveNav. nav a {
+.MainNav {
 	visibility: hidden;
 	display: none;
-}
-.NavLink {
-	visibility: hidden;
 }
 .NavMobileLogo {
 	float: left;
