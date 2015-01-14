@@ -32,7 +32,7 @@ header.hero	{
 #ResponsiveNav {
 	visibility: visible;
 }
-nav a {
+#ResponsiveNav. nav a {
 	visibility: hidden;
 	display: none;
 }
